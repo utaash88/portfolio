@@ -8,7 +8,7 @@ import firebaseImage from "../images/firebase.jpg";
 function HomePage() {
   return (
     <div className="container text-center">
-      <h1>Shin Code</h1>
+      <h1>Hana</h1>
 
       <img src={profileImage} className="profileImage" />
 
@@ -20,7 +20,7 @@ function HomePage() {
       <section class="page-section" id="services">
         <div className="service">
           <div class="text-center">
-            <h2 class="section-heading text-uppercase">PORTFOLIO</h2>
+            <h2 class="section-heading text-uppercase" link="https://myway-taupe.vercel.app/post">PORTFOLIO</h2>
             <h3 class="section-subheading text-muted mb-5">
               私が作った作品一覧です
             </h3>
@@ -43,7 +43,7 @@ function HomePage() {
                 <i class="fas fa-circle fa-stack-2x text-primary"></i>
                 <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
               </span>
-              <h4 class="my-3">レスポンシブサイト</h4>
+              <h4 class="my-3" link="https://nextjs-with-supabase-five-phi.vercel.app/login">レスポンシブサイト</h4>
               <p class="text-muted">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
                 maxime quam architecto quo inventore harum ex magni, dicta
